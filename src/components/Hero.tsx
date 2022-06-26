@@ -13,8 +13,8 @@ const Hero = () => {
         muted
       />
       <div className='w-full h-[90%] flex flex-col justify-center items-center text-white px-4 text-center'>
-        <h1 className='md:text-6xl text-shadow-xl md:uppercase'>Decentralized</h1>
-        <h1 className='py-2 md:text-4xl md:uppercase'><strong className='text-transparent bg-clip-text bg-gradient-to-l from-[#00feba] to-[#00abff]'>Trading</strong> Protocol</h1>
+        <h1 className='md:text-6xl text-shadow-xl'>Decentralized</h1>
+        <h1 className='py-2 md:text-4xl'><strong className='text-transparent bg-clip-text bg-gradient-to-l from-[#00feba] to-[#00abff]'>Trading</strong> Protocol</h1>
         <p className='text-2xl py-4 font-normal text-shadow-xl'>Guaranteed liquidity trading for millions of users and top Ethereum applications</p>
         <div>
           <button className='m-2'>Use Defi</button>
