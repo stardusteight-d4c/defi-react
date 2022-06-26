@@ -3,20 +3,17 @@ import Developers from './components/Developers'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Subscribe from './components/Subscribe'
-import Flip from 'react-reveal/Flip'
-import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
     <div>
       <Hero />
       <About />
-      <Flip top>
         <Developers />
-      </Flip>
-      <Zoom bottom>
+      <Fade top>
         <Subscribe />
-      </Zoom>
+      </Fade>
       <Footer />
     </div>
   )

@@ -8,10 +8,6 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  * {
-    @apply font-[sans];
-  }
-
   h1 {
     @apply text-4xl font-bold;
   }
