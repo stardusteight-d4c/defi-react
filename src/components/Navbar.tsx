@@ -8,18 +8,18 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full h-[90px] bg-black">
-      <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full">
+    <div className='md:absolute m-4'>
+      <div className="px-4 flex justify-between items-center">
         <div>
           <h1 className="text-[#00d8ff]">DEFI</h1>
         </div>
-        <div className="hidden md:flex">
+        <div className="hidden md:flex md:pl-[97%]">
           <ul className="flex text-white items-center">
-            <li>Platform</li>
-            <li>Developers</li>
-            <li>Community</li>
-            <li>About</li>
-            <button className="ml-4">Use Defi</button>
+            <li className='cursor-pointer'>Platform</li>
+            <li className='cursor-pointer'>Developers</li>
+            <li className='cursor-pointer'>Community</li>
+            <li className='cursor-pointer'>About</li>
+            <button className="ml-4 w-[124px]">Use Defi</button>
           </ul>
         </div>
 

@@ -1,8 +1,10 @@
 import heroVid from '../assets/video.mp4'
+import Navbar from './Navbar'
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90vh] top-[90px]">
+    <div className="w-full h-[100vh] top-0">
+      <Navbar />
       <video
         className="object-cover h-full w-full absolute -z-10"
         src={heroVid}
