@@ -8,10 +8,10 @@ const Navbar = () => {
   }
 
   return (
-    <div className='md:absolute m-4'>
+    <div className='m-4 bg-black md:absolute md:bg-inherit'>
       <div className="px-4 flex justify-between items-center">
         <div>
-          <h1 className="text-[#00d8ff]">DEFI</h1>
+          <h1 className="text-[#00d8ff] cursor-pointer">DEFI</h1>
         </div>
         <div className="hidden md:flex md:pl-[97%]">
           <ul className="flex text-white items-center">
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'}>
+        <div className={nav ? 'w-full h-[100vh] bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 'absolute left-[-100%]'}>
           <ul>
             <li className="text-2xl">Platform</li>
             <li className="text-2xl">Developers</li>
