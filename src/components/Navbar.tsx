@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -10,16 +11,16 @@ const Navbar = () => {
   return (
     <div className='m-4 bg-black md:absolute md:bg-inherit'>
       <div className="px-4 flex justify-between items-center">
-        <div>
-          <h1 className="text-[#00d8ff] cursor-pointer">DEFI</h1>
+        <div className='top-[0px] md:left-12 md:absolute cursor-pointer'>
+         <img src={logo} width={80} height={80} />
         </div>
-        <div className="hidden md:flex md:pl-[97%]">
+        <div className="hidden md:flex md:pl-[105%] md:mt-[13px]">
           <ul className="flex text-white items-center">
-            <li className='cursor-pointer'>Platform</li>
-            <li className='cursor-pointer'>Developers</li>
-            <li className='cursor-pointer'>Community</li>
-            <li className='cursor-pointer'>About</li>
-            <button className="ml-4 w-[124px]">Use Defi</button>
+            <li className='cursor-pointer font-medium text-lg transition duration-500 ease-in-out hover:scale-110 hover:text-shadow-xl'>Platform</li>
+            <li className='cursor-pointer font-medium text-lg transition duration-500 ease-in-out hover:scale-110 hover:text-shadow-xl'>Developers</li>
+            <li className='cursor-pointer font-medium text-lg transition duration-500 ease-in-out hover:scale-110 hover:text-shadow-xl'>Community</li>
+            <li className='cursor-pointer font-medium text-lg transition duration-500 ease-in-out hover:scale-110 hover:text-shadow-xl'>About</li>
+            <button className="ml-4 w-[135px] font-medium text-lg">Use Defi</button>
           </ul>
         </div>
 

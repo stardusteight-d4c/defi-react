@@ -2,13 +2,13 @@
 module.exports = {
   content: ['./src/**/*.{tsx,css}'],
   fontFamily: {
-    sans: 'Roboto Condensed, sans-serif',
+    sans: 'Roboto, sans-serif',
   },
   theme: {
     extend: {
       colors: {
         blue: {
-          300: '#00d8ff',
+          300: '#00feba',
         },
         purple: {
           300: '#6a00ff',
@@ -16,5 +16,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-textshadow')],
 }
