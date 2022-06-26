@@ -2,19 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  -webkit-font-smoothing: antialiased;
-}
-
 @layer base {
   body {
-    @apply bg-black
+    @apply bg-black text-white;
+    -webkit-font-smoothing: antialiased;
   }
-  
+
   * {
-    @apply font-[sans]
+    @apply font-[sans];
   }
-  
+
   h1 {
     @apply text-4xl font-bold;
   }
